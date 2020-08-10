@@ -7,7 +7,6 @@ const Notes = require('./lib/notes.js');
 
 const input = new Input();
 console.log(input);
-// const notes = new Notes(input);
-// const output = notes.go();
+
 
 // console.log(output);
