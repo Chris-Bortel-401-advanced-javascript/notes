@@ -32,11 +32,10 @@ i.e.
 - Describe any tests that you did not complete, skipped, etc
 
 #### UML
-!(images/ititial-notesy-uml.jpg)
+![Initial Notesy UML](images/ititial-notesy-uml.jpg)
 
 
-!(images/refined-notesy-uml.jpg)
-Link to an image of the UML for your application and response to events
+![Refined Notesy UML](images/refined-notesy-uml.jpg)
 
 
 
