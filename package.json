@@ -1,0 +1,33 @@
+{
+  "name": "notes",
+  "version": "0.0.1",
+  "description": "Command Line Note Taker",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-Bortel-401-advanced-javascript/notes.git"
+  },
+  "keywords": [
+    "notes",
+    "data",
+    "json",
+    "httpie",
+    "postman"
+  ],
+  "author": "Chris Bortel",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Chris-Bortel-401-advanced-javascript/notes/issues"
+  },
+  "homepage": "https://github.com/Chris-Bortel-401-advanced-javascript/notes#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
