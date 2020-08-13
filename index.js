@@ -9,9 +9,6 @@ const notes = new Notes(input);
 input.validInput()?notes.execute(): help();
 
 function help() {
-  console.log('this is not valid');
+  console.log('Sorry, that input is not valid.');
   process.exit();
 }
-
-
-// console.log(output);

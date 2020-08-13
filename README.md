@@ -1,4 +1,7 @@
 Worked with Kory
+Utilized switch documentation from [Mozilla web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+
+Cait Rowland helped me refactor my validate function and pass the data through the execute function in order to get my add() function to cooperate.
 
 
 
