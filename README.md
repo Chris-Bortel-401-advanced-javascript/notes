@@ -8,13 +8,11 @@
 - [class-01 submission PR](https://github.com/Chris-Bortel-401-advanced-javascript/notes/pull/1)
 - [class-02 submission PR](https://github.com/Chris-Bortel-401-advanced-javascript/notes/pull/2)
 - [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
 
 ### Setup
+``npm install``
 
 #### `.env` requirements (where applicable)
-``npm install``
 i.e.
 
 - `PORT` - Port Number
