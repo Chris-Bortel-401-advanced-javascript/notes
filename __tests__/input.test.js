@@ -20,9 +20,6 @@ describe('Command Line Note Taker', () => {
     const command = opts.validate({a: 'this should pass'});
     expect(command.action).toBeDefined();
     expect(command.payload).toBeDefined();
-    // const options = new Input();
-    // console.log('this is options line 10++++++++++++++++++++++++++++++++', options);
-    // expect(options.validate()).toBeTruthy();
 
   });
 });
