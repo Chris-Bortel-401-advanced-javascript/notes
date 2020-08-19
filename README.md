@@ -21,7 +21,10 @@ i.e.
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+- First, install the dependencies
+- Next, to run the application, type ``node index.js --add "Some sort of note" --category "Some sort of category"``
+- To look at the list of the saved notes, run the command ``node index.js --list``
+- To look at the list of saved notes for a specific category, run the command ``node index.js --list "Specific category"``
 
 #### How to use your library (where applicable)
 
@@ -30,7 +33,8 @@ i.e.
 ``input.js.test`` type the command ``npm test``
 - ```input.js.test``` is working
 - Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- ``notes.test.js`` are currently passing according to the problem domain for lab-02.
+- All tests for lab-03 have yet to be tested.
 
 #### UML
 ![Initial Notesy UML](images/ititial-notesy-uml.jpg)
