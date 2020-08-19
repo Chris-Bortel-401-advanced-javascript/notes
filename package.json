@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest --verbose --coverage",
-    "watch": "jest --watchAll"
+    "test-watch": "jest --coverage --verbose --watchAll"
   },
   "repository": {
     "type": "git",

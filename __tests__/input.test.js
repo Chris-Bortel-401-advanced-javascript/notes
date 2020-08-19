@@ -25,13 +25,15 @@ describe('Command Line Note Taker', () => {
   });
 //   Given invalid input:
 // The Class’ valid() method returns false
-  it('returns underfined if the validate() method returns false', () => {
+  it('returns undefined if the validate() method returns false', () => {
     minimist.mockImplementation(() => {
       return {
         wsd: 'not a note',
       };
     });
   });
+
+
 });
 
 
