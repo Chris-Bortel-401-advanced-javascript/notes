@@ -15,7 +15,7 @@ const Input = require('../lib/input.js');
 
 describe('Command Line Note Taker', () => {
   // refers to what we are testing
-  it('can take notes from my terminal', () => {
+  it('with a good input, validate() returns true and creates a new instance of both acton and payload', () => {
     // instantiates new Input object for this test
     const opts = new Input();
     const command = opts.validate({a: 'this should pass'});
@@ -33,7 +33,9 @@ describe('Command Line Note Taker', () => {
     });
   });
 
-
+  it('returns true if validInput contains both a command and an action', () => {
+    
+  })
 });
 
 

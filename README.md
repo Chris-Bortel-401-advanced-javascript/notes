@@ -26,6 +26,11 @@ i.e.
 - To look at the list of the saved notes, run the command ``node index.js --list``
 - To look at the list of saved notes for a specific category, run the command ``node index.js --list "Specific category"``
 
+#### How to work with Mongo
+- Show databases
+- use db
+?? This is where I am confused, because when I ``show dbs`` it returns ``db`` but the db itself has the notes collection. ??
+- To find everything in your collection, use ``db.notes.find({})``
 #### How to use your library (where applicable)
 
 #### Tests
