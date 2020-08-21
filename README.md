@@ -1,4 +1,4 @@
-# LAB - Class 02
+# LAB - Class 03
 
 ## Project: Notesy
 
@@ -7,6 +7,7 @@
 ### Links and Resources
 - [class-01 submission PR](https://github.com/Chris-Bortel-401-advanced-javascript/notes/pull/1)
 - [class-02 submission PR](https://github.com/Chris-Bortel-401-advanced-javascript/notes/pull/2)
+- [class-03 submission PR](https://github.com/Chris-Bortel-401-advanced-javascript/notes/pull/4)
 - [ci/cd](http://xyz.com) (GitHub Actions)
 
 ### Setup
@@ -18,18 +19,31 @@ i.e.
 - `PORT` - Port Number
 - `MONGODB_URI` - URL to the running mongo instance/db
 
-#### How to initialize/run your application (where applicable)
+#### How to initialize/run application
 
-- e.g. `npm start`
+- First, install the dependencies
+- Next, to run the application, type ``node index.js --add "Some sort of note" --category "Some sort of category"``
+- To look at the list of the saved notes, run the command ``node index.js --list``
+- To look at the list of saved notes for a specific category, run the command ``node index.js --list "Specific category"``
+
+#### How to work with Mongo
+- Show databases
+- use db
+?? This is where I am confused, because when I ``show dbs`` it returns ``db`` but the db itself has the notes collection. ??
+- To find everything in your collection, use ``db.notes.find({})``
 
 #### How to use your library (where applicable)
 
 #### Tests
 
 ``input.js.test`` type the command ``npm test``
-- How do you run tests?
+- ```input.js.test``` is working
 - Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- ``notes.test.js`` are currently passing according to the problem domain for lab-02.
+- All tests for lab-03 have yet to be tested.
+
+#### Things that I want to change
+- make error responses for all sorts of input errors (currently, the category being called alone breaks the application without sending any message to the cli)
 
 #### UML
 ![Initial Notesy UML](images/ititial-notesy-uml.jpg)
@@ -38,8 +52,8 @@ i.e.
 ![Refined Notesy UML](images/refined-notesy-uml.jpg)
 
 
+Kristian Esvelt helped debug and unblock me. 
 
-Worked with Kory Jackson 
 Utilized switch documentation from [Mozilla web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 Cait Rowland helped me refactor my validate function and pass the data through the execute function in order to get my add() function to cooperate.

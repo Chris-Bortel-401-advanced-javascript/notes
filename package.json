@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest --verbose --coverage",
-    "watch": "jest --watchAll"
+    "test-watch": "jest --coverage --verbose --watchAll"
   },
   "repository": {
     "type": "git",
@@ -29,8 +29,13 @@
   },
   "homepage": "https://github.com/Chris-Bortel-401-advanced-javascript/notes#readme",
   "dependencies": {
-    "minimist": "^1.2.5",
+    "dotenv": "^8.2.0",
     "faker": "^4.1.0",
-    "jest": "^25.1.0"
+    "is-url": "^1.2.4",
+    "jest": "^25.1.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.10.0",
+    "superagent": "^5.2.1",
+    "uuid": "^8.3.0"
   }
 }
