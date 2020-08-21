@@ -33,3 +33,7 @@ describe('command', () => {
 });
 
 
+// for execute function
+// it('with valid input the case returns an object and does something with that object in the mongoDB)
+// TODO: Make a new instance of Notes, line 5 notes.js
+// TODO: Assert that each switch case returns the object that is expected by their functions
