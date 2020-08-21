@@ -1,4 +1,4 @@
-# LAB - Class 03
+# LAB - Class 04
 
 ## Project: Notesy
 
@@ -8,6 +8,7 @@
 - [class-01 submission PR](https://github.com/Chris-Bortel-401-advanced-javascript/notes/pull/1)
 - [class-02 submission PR](https://github.com/Chris-Bortel-401-advanced-javascript/notes/pull/2)
 - [class-03 submission PR](https://github.com/Chris-Bortel-401-advanced-javascript/notes/pull/4)
+- [class-04 submission PR](https://github.com/Chris-Bortel-401-advanced-javascript/notes/pull/)
 - [ci/cd](http://xyz.com) (GitHub Actions)
 
 ### Setup
