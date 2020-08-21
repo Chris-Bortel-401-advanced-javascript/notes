@@ -21,7 +21,7 @@ describe('Command Line Note Taker', () => {
   });
 
   // The Class’ valid() method returns false
-  it('returns undefined if the validate() method returns false', () => {
+  it('returns undefined if the validInput() method returns false', () => {
     minimist.mockImplementation(() => {
       return {
         wsd: 'not a note',
@@ -30,6 +30,7 @@ describe('Command Line Note Taker', () => {
 
     const opts = new Input();
     console.log('opts line 32', opts);
+    expect(opts.validInput()).toEqual(false);
     expect(opts.command.action).toBeUndefined();
     expect(opts.command.payload).toBeUndefined();
   });
@@ -40,7 +41,9 @@ describe('Command Line Note Taker', () => {
         a: 'this is a valid input',
       };
     });
-    
+    const opts = new Input();
+    console.log('opts', opts);
+    expect(opts.validInput()).toEqual(true);
   });
 
 

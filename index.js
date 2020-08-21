@@ -12,7 +12,10 @@ const Input = require('./lib/input');
 const Notes = require('./lib/notes.js');
 
 const input = new Input();
-console.log('input', input);
+if(input.validInput() === false){
+  help();
+}
+
 const notes = new Notes(input);
 
 // input.validInput()?notes.execute(): help();
