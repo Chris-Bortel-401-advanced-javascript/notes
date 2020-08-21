@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/Chris-Bortel-401-advanced-javascript/notes#readme",
   "dependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
     "dotenv": "^8.2.0",
     "faker": "^4.1.0",
     "is-url": "^1.2.4",
