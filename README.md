@@ -19,7 +19,7 @@ i.e.
 - `PORT` - Port Number
 - `MONGODB_URI` - URL to the running mongo instance/db
 
-#### How to initialize/run your application (where applicable)
+#### How to initialize/run application
 
 - First, install the dependencies
 - Next, to run the application, type ``node index.js --add "Some sort of note" --category "Some sort of category"``
@@ -31,6 +31,7 @@ i.e.
 - use db
 ?? This is where I am confused, because when I ``show dbs`` it returns ``db`` but the db itself has the notes collection. ??
 - To find everything in your collection, use ``db.notes.find({})``
+
 #### How to use your library (where applicable)
 
 #### Tests
@@ -41,6 +42,9 @@ i.e.
 - ``notes.test.js`` are currently passing according to the problem domain for lab-02.
 - All tests for lab-03 have yet to be tested.
 
+#### Things that I want to change
+- make error responses for all sorts of input errors (currently, the category being called alone breaks the application without sending any message to the cli)
+
 #### UML
 ![Initial Notesy UML](images/ititial-notesy-uml.jpg)
 
@@ -48,8 +52,8 @@ i.e.
 ![Refined Notesy UML](images/refined-notesy-uml.jpg)
 
 
+Kristian Esvelt helped debug and unblock me. 
 
-Worked with Kory Jackson 
 Utilized switch documentation from [Mozilla web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 Cait Rowland helped me refactor my validate function and pass the data through the execute function in order to get my add() function to cooperate.
