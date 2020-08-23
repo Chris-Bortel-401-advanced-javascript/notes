@@ -12,9 +12,9 @@ const Input = require('./lib/input');
 const Notes = require('./lib/notes.js');
 
 const input = new Input();
-if(input.validInput() === false){
-  help();
-}
+// if(input.validInput() === false){
+//   help();
+// }
 
 const notes = new Notes(input);
 
